@@ -5,7 +5,7 @@ function About() {
     <div>
         <section id="about" className="text-white flex flex-col">
       <h2 className="text-3xl font-bold">Sobre Mim</h2>
-      <p className="mt-2">Sou um desenvolvedor full-stack apaixonado, com experiência na construção de aplicações web.</p>
+      <p className="mt-2">Sou um desenvolvedor full-stack apaixonado, com <br /> experiência na construção de aplicações web.</p>
     </section>
     
     <section>
