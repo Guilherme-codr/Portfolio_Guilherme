@@ -7,10 +7,12 @@ function Projects() {
         </h1>
       </div>
       <div className="w-full  mt-4 grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
-        
-        <div
+        <a
           id="Projeto1"
           className="relative group w-full h-full"
+          href="https://www.youtube.com"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <img
             src="./src/img/RotaReal.png"
@@ -29,13 +31,9 @@ function Projects() {
             desenvolvido em React e Tailwind CSS, exibindo avaliações de carros
             de forma clara e interativa.
           </p>
-        </div>
-        
+        </a>
 
-        <div
-          id="Projeto2"
-          className="relative group w-full h-full"
-        >
+        <div id="Projeto2" className="relative group w-full h-full">
           <img
             src="./src/img/LoginPage.jpg"
             alt="Projeto 2"
@@ -49,10 +47,11 @@ function Projects() {
 
           {/* Parágrafo invisível por padrão, aparece no hover */}
           <p className="absolute inset-0 flex items-center justify-center w-full font-bold text-white text-center bg-black bg-opacity-70 p-4 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-            Uma página de login simples e responsiva, desenvolvida com Html5 e css, que permite aos usuários acessar suas contas de forma segura e intuitiva.
+            Uma página de login simples e responsiva, desenvolvida com Html5 e
+            css, que permite aos usuários acessar suas contas de forma segura e
+            intuitiva.
           </p>
         </div>
-
       </div>
     </section>
   );

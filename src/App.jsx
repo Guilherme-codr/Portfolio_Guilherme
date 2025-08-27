@@ -1,8 +1,7 @@
-
-import Header from "./components/Header"
-import About from "./components/About"
-import Photo from "./components/Photo"
-import Projects from "./components/Projects"
+import Header from "./components/Header";
+import About from "./components/About";
+import Photo from "./components/Photo";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -13,10 +12,10 @@ function App() {
         <Photo />
         <About />
       </div>
-      
+
       <Projects />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
