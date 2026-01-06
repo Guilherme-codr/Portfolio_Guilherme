@@ -1,3 +1,6 @@
+import RotaReal from "../img/RotaReal.png";
+import LoginPage from "../img/LoginPage.jpg";
+
 function Projects() {
   return (
     <section>
@@ -8,7 +11,6 @@ function Projects() {
       </div>
 
       <div className="w-full max-w-6xl mx-auto mt-4 grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
-
         <a
           id="Projeto1"
           className="relative group w-full max-w-lg h-64 rounded-lg overflow-hidden shadow-lg"
@@ -17,7 +19,7 @@ function Projects() {
           rel="noopener noreferrer"
         >
           <img
-            src="./src/img/RotaReal.png"
+            src={RotaReal}
             alt="Projeto 1"
             className="w-full h-full object-cover"
           />
@@ -36,7 +38,7 @@ function Projects() {
           className="relative group w-full max-w-lg h-64 rounded-lg overflow-hidden shadow-lg"
         >
           <img
-            src="./src/img/LoginPage.jpg"
+            src={LoginPage}
             alt="Projeto 2"
             className="w-full h-full object-cover"
           />
@@ -49,7 +51,6 @@ function Projects() {
             Uma página de login simples e responsiva...
           </p>
         </div>
-
       </div>
     </section>
   );
