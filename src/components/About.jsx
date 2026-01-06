@@ -16,7 +16,9 @@ function About() {
           <StackIcon name="js" className="w-8 h-8 rounded mr-4" />
           <StackIcon name="nodejs" className="w-8 h-8 rounded mr-4" />
           <StackIcon name="mongodb" className="w-8 h-8 rounded mr-4" />
-          <StackIcon name="expressjs" variant="dark" className="w-10 h-10 rounded" />
+          <StackIcon name="expressjs" variant="dark" className="w-10 h-10 rounded mr-4" />
+          <StackIcon name="nestjs" className="w-8 h-8 rounded mr-4" />
+          <StackIcon name="postman" className="w-8 h-8 rounded mr-4" />
         </div>
     </section>
     </div>
