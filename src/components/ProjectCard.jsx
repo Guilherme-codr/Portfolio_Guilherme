@@ -7,7 +7,7 @@ function ProjectCard({ title, description, image, link }) {
   return (
     <Wrapper
       {...linkProps}
-      className="relative group w-full max-w-lg h-64 rounded-lg overflow-hidden shadow-lg"
+      className="relative group w-full max-w-lg h-64 rounded-lg overflow-hidden shadow-lg cursor-pointer"
     >
       <img src={image} alt={title} className="w-full h-full object-cover" />
 

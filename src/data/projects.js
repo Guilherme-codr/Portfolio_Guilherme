@@ -1,5 +1,7 @@
 import RotaReal from "../img/RotaReal.png";
 import LoginPage from "../img/LoginPage.jpg";
+import CineDose from "../img/CineDose.png";
+import CryptoLive from "../img/CryptoLive.png";
 
 // Para adicionar um projeto novo:
 // 1. Coloque a imagem em src/img/
@@ -14,7 +16,8 @@ import LoginPage from "../img/LoginPage.jpg";
 const projects = [
   {
     title: "Rota Real",
-    description: "Rota Real é um site de reviews automotivos com layout moderno...",
+    description:
+      "Rota Real é um site de reviews automotivos com layout moderno...",
     image: RotaReal,
     link: "https://www.youtube.com",
   },
@@ -22,6 +25,18 @@ const projects = [
     title: "Página de Login",
     description: "Uma página de login simples e responsiva...",
     image: LoginPage,
+  },
+  {
+    title: "CineDose",
+    description: "CineDose é uma plataforma de críticas cinematográficas...",
+    image: CineDose,
+    link: "https://guilherme-codr.github.io/Cinedose/",
+  },
+  {
+    title: "Crypto Live",
+    description: "Um site de monitoramento de criptomoedas em tempo real...",
+    image: CryptoLive,
+    link: "https://guilherme-codr.github.io/Crypto_Live/",
   },
 ];
 
